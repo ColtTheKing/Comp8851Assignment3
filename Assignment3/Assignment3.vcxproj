@@ -113,9 +113,11 @@
   <ItemGroup>
     <ClCompile Include="CuckooHash.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RoundRobin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CuckooHash.h" />
+    <ClInclude Include="RoundRobin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
